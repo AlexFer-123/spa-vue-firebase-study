@@ -1,4 +1,4 @@
-# expenses
+# spa-vue-firebase-study
 
 ## Project setup
 ```

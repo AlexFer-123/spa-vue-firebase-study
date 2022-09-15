@@ -1,24 +1,22 @@
 <template>
   <div id="app">
-    Oi bb
+    <BaseSpinner/>
+    <!-- <router-view /> -->
   </div>
 </template>
 
 <script>
 
+import BaseSpinner from './components/global/BaseSpinner';
+
 export default {
   name: 'App',
   components: {
+    BaseSpinner
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-
-  text-align: center;
-  color: #2c3e50;
-
-}
+  
 </style>
